@@ -28,8 +28,8 @@ end
 -- https://github.com/sumneko/lua-language-server/wiki/Build-and-Run-(Standalone)
 USER = vim.fn.expand('$USER')
 
-local sumneko_root_path = os.getenv("HOME").."/.local/share/nvim/lua-language-server/bin"
-local sumneko_binary = os.getenv("HOME").."/.local/share/nvim/lua-language-server/bin/Linux/lua-language-server"
+local sumneko_root_path = os.getenv("HOME").."/.config/nvim/lua-language-server/bin"
+local sumneko_binary = os.getenv("HOME").."/.config/nvim/lua-language-server/bin/Linux/lua-language-server"
 
 nvim_lsp['sumneko_lua'].setup {
     cmd = {sumneko_binary, "-E", sumneko_root_path.."/main.lua"},
