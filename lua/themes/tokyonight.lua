@@ -10,3 +10,5 @@ vim.g.tokyonight_colors = { bg_float = "NONE", comment = "#ebf3fc" }
 
 -- Load the colorscheme
 vim.cmd[[colorscheme tokyonight]]
+
+vim.cmd([[hi WhichKeyFloat ctermbg=BLACK ctermfg=BLACK]])

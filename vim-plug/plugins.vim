@@ -10,6 +10,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Themes
     Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+    Plug 'shaunsingh/moonlight.nvim'
+    Plug 'EdenEast/nightfox.nvim'
+    Plug 'catppuccin/nvim'
 
     " Whick-key 
     Plug 'folke/which-key.nvim'

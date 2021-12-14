@@ -49,6 +49,7 @@ nvim_lsp['sumneko_lua'].setup {
             workspace = {
                 -- Make the server aware of Neovim runtime files
                 -- library = vim.api.nvim_get_runtime_file("", true),
+                preloadFileSize = 500,
                 library = {[vim.fn.expand('$VIMRUNTIME/lua')] = true, [vim.fn.expand('$VIMRUNTIME/lua/vim/lsp')] = true}
             },
         },
